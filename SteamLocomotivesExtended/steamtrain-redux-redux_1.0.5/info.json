@@ -1,0 +1,9 @@
+{
+    "name": "steamtrain-redux-redux",
+    "version": "1.0.5",
+    "title": "Steam Locomotive",
+    "author": "",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0"],
+    "description": "Adds an animated steam locomotive. It does not function differently from the default locomotive and is for aesthetic purpose only."
+}

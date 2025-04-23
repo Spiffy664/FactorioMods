@@ -1,0 +1,5 @@
+require("prototype/entity/steam_locomotive")
+require("prototype/item/steam_locomotive")
+require("prototype/recipe/steam_locomotive")
+require("prototype/technology/steam_locomotion")
+require("prototype/entity/wheels")
