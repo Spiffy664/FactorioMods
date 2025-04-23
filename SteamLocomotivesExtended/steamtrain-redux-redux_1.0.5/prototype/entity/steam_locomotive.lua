@@ -16,6 +16,31 @@ local custom_properties = {
 	},
 	weight = 2000,
 	connection_distance = 3,
+	
+	-- SpiffyGPT added properties to the base steam locomotive mod 
+    -- Add water and steam properties
+    water_capacity = 5000,            -- Water capacity in units
+    steam_capacity = 10000,           -- Steam capacity in units
+    water_consumption_per_tick = 0.5, -- Water used per tick when running
+    steam_consumption_per_tick = 1.0, -- Steam used per tick when running
+    steam_power_multiplier = 1.5,     -- Power multiplier when using steam
+    
+    -- Add boiler properties
+    boiler = {
+        water_to_steam_ratio = 1.0,   -- How much water converts to how much steam
+        heating_energy_required = 100, -- Energy required to convert water to steam
+        max_temperature = 165,        -- Maximum temperature of boiler
+        min_working_temperature = 100, -- Minimum temperature to produce steam
+        temperature_increase_per_energy_unit = 0.1 -- Temperature increase per energy unit
+    },
+    
+    -- Add pump properties
+    pump = {
+        max_flow_rate = 10,           -- Maximum water units pumped per second
+        energy_required_per_unit = 0.2 -- Energy required to pump one unit of water
+    },
+
+
 	energy_source = {
 		type = "burner",
 		emissions_per_minute = { pollution = 10 },
