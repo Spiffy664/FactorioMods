@@ -1,0 +1,8 @@
+{
+    "name": "GhostsOnlyDecon",
+    "version": "0.1.0",
+    "title": "Ghosts Only Deconstruction Planner",
+    "author": "YourName",
+    "description": "Adds a selection tool that removes ghost entities only, without touching real entities.",
+    "factorio_version": "2.0"
+  }
