@@ -1,8 +1,9 @@
 {
-    "name": "GhostsOnlyDecon",
-    "version": "0.1.0",
-    "title": "Ghosts Only Deconstruction Planner",
-    "author": "YourName",
-    "description": "Adds a selection tool that removes ghost entities only, without touching real entities.",
-    "factorio_version": "2.0"
-  }
+  "name": "deconstruction-planner-ghosts-filter",
+  "version": "1.0.0",
+  "title": "Deconstruction Planner Ghosts Filter",
+  "author": "YourName",
+  "factorio_version": "2.0",
+  "description": "Adds a 'Ghosts Only' filter button to the deconstruction planner, similar to the existing Trees and Rocks filter.",
+  "dependencies": ["base >= 1.1.0"]
+}
